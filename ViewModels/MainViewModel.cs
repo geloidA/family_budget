@@ -29,14 +29,5 @@ namespace family_budget.ViewModels
                     () => Clicks++, () => Clicks < 10);
             }
         }
-
-        public ICommand ClickRemove
-        {
-            get
-            {
-                return new DelegateCommand(
-                    () => Clicks--);
-            }
-        }
     }
 }
