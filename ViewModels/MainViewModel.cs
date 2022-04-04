@@ -9,17 +9,8 @@ using System.Windows.Input;
 namespace family_budget.ViewModels
 {
     class MainViewModel : ViewModelBase
-    { 
-        private int _clicks;
-        public int Clicks
-        {
-            get { return _clicks; }
-            set 
-            {
-                _clicks = value;
-                RaisePropertyChanged(() => Clicks);
-            }
-        }
+    {
+        public int Clicks { get; set; }
 
         public ICommand ClickAdd
         {
