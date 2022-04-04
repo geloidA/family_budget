@@ -18,6 +18,8 @@
                 Text="{Binding Clicks}"/>
             <Button Command="{Binding ClickAdd}"
                     Content="Test"/>
+            <Button Command="{Binding ClickRemove}"
+                    Content="Test1"/>
         </StackPanel>
     </Grid>
 </Window>
